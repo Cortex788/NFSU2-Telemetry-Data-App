@@ -31,7 +31,7 @@ namespace TelemetryData
             }
 
             using ProcessMemory memory = new ProcessMemory(nfsu2.Id);
-            CarDatabase carDatabase = new CarDatabase($"Cars.json");
+            CarDatabase carDatabase = new CarDatabase("../../Cars.json");
 
             Stopwatch sw = Stopwatch.StartNew();
 
